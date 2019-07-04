@@ -51,7 +51,9 @@
     "build-ci": "npm run build-prod",
     "prerelease-ci": "git pull",
     "release-ci": "lerna publish --yes",
-    "postrelease-ci": "npm run inject-version"
+    "postrelease-ci": "npm run inject-version",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -200,6 +202,8 @@
     "sniffr": "1.1.4",
     "style-loader": "0.18.2",
     "svg-sprite-loader": "3.0.11",
-    "url-loader": "0.5.9"
-  }
+    "url-loader": "0.5.9",
+    "snyk": "^1.192.0"
+  },
+  "snyk": true
 }
