@@ -170,7 +170,7 @@
     "combokeys": "2.4.6",
     "compile-code-loader": "0.2.0",
     "core-js": "2.4.1",
-    "css-loader": "1.0.0",
+    "css-loader": "2.0.0",
     "dom4": "1.8.5",
     "element-resize-detector": "1.1.12",
     "es6-error": "^4.0.2",
